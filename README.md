@@ -1,4 +1,4 @@
-# Sentiment Analysis from Audio File
+# Sentiment Analysis from an Audio Clip
 
 ## Project Overview
 This project serves to recognize emotion from a given audio file by training a neural net on the RAVDESS dataset.
