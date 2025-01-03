@@ -1,8 +1,7 @@
-# Emotion Recognition from Speech: Multimodal Deep Learning Approach
+# Sentiment Analysis from Audio File
 
-# NOTE for grader : Various google colab ipynb files are in the src/notebooks folder
 ## Project Overview
-This project implements a deep learning-based emotion recognition system using the RAVDESS dataset, leveraging both acoustic features and contextual metadata.
+This project serves to recognize emotion from a given audio file by training a neural net on the RAVDESS dataset.
 
 ## Prerequisites
 - Python 3.8+
@@ -32,7 +31,7 @@ If you want to change the audio file, you can make one by running
 
 python inputaudio.py 
 
-which will overwrite audio.wav with a five second recording (you can tweak the code to make it longer) of your voice.
+Which will overwrite audio.wav with a five second recording (you can tweak the code to make it longer) of your voice.
 
 
 Running will take a while the first time because it needs to install Wav2Vec2 and MMS-LID. 
